@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         UserEntity userEntity = new UserEntity();
 //        userEntity.setUsername("小明");
         userEntity.setNickname("面朝大海，心暖花开");
-        userEntity.setAge(18);
+        userEntity.setAge(32);
         activityMainBinding.setUser(userEntity);
     }
 }
