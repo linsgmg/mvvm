@@ -23,6 +23,11 @@ public class Food {
         this.keywords = keywords;
         this.summary = summary;
     }
+    public Food(String description, String img, String keywords) {
+        this.description = description;
+        this.img = img;
+        this.keywords = keywords;
+    }
 
     @BindingAdapter("img")
     public static void loadInternetImage(ImageView iv, String img) {
